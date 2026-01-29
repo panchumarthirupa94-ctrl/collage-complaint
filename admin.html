@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="loadComplaints()">
+
+        <nav>
+    <div class="nav-left">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="profile-icon">
+        <h2>College Complaint System</h2>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="complaint.html">Lodge Complaint</a>
+        <a href="status.html">Track Status</a>
+        <a href="admin.html">Admin</a>
+    </div>
+</nav>
+
+        <h2 style="text-align: center;">All Complaints</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Complaint</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            </table><tbody id="admin Table">
+            </tbody>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

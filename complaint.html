@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lodge Complaint</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav>
+    <div class="nav-left">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="profile-icon">
+        <h2>College Complaint System</h2>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="complaint.html">Lodge Complaint</a>
+        <a href="status.html">Track Status</a>
+        <a href="admin.html">Admin</a>
+    </div>
+</nav>
+
+        <div class="form-container">
+            <h2>Submit Your Complaint</h2>
+
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="text" id="roll" placeholder="Roll Number">
+            <input type="text" id="dept" placeholder="Department">
+            <input type="text" id=" title" placeholder="Complaint Title">
+            <textarea id="desc" placeholder="Describe Your issue"></textarea>
+
+            <button onclick="submitcomplaint()">Submit Complaint</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

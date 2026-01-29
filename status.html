@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Track Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadStatus()">
+
+<!-- NAVBAR -->
+<nav>
+    <div class="nav-left">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="profile-icon">
+        <h2>College Complaint System</h2>
+    </div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="complaint.html">Lodge Complaint</a>
+        <a href="status.html">Track Status</a>
+        <a href="admin.html">Admin</a>
+    </div>
+</nav>
+
+<!-- HERO / INTRO -->
+<section class="hero">
+    <h1>Track Your Complaint Status</h1>
+    <p>
+        Welcome! Here you can view all the complaints you have submitted. 
+        Each complaint shows its unique ID and current status, whether <span class="pending">Pending</span> 
+        or <span class="resolved">Resolved</span> by the administration.
+    </p>
+</section>
+
+<!-- GUIDANCE / HOW TO USE -->
+<section class="hero">
+    <h1>📊 Complaint Status</h1>
+    <p>Live updates • One glance • Zero confusion</p>
+</section>
+
+
+<!-- STATUS TABLE -->
+<h2>Your Complaint Status</h2>
+<h2 style="text-align:center; margin-top:30px;">🗂 Your Complaints</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Complaint</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="statusTable">
+        <!-- Dynamic content loaded from script.js -->
+    </tbody>
+</table>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 College Complaint System</p>
+    <p class="footer-note">Designed for Academic Project Use</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
